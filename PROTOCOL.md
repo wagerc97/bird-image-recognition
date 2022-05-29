@@ -1,5 +1,5 @@
 # Protocol
-### Using Keras/Tensorflow to build an image classifier neural network.
+### Using Keras-TensorFlow to build an image classifier neural network.
 [What is Keras?](https://www.simplilearn.com/keras-vs-tensorflow-vs-pytorch-article#:~:text=is%20Deep%20Learning%3F-,What%20is%20Keras%3F,-What%20is%20PyTorch) -
 Basically, Keras is an API that allows us to define the architecture of the neural network (NN).
 
