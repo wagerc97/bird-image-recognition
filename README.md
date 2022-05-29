@@ -1,6 +1,6 @@
 # Image Classifier
 #### Library:
-- Build on Keras / TensorFlow
+- Build on Keras-TensorFlow
 - Learn more in the [protocol](./PROTOCOL.md)
 
 #### Dataset:
