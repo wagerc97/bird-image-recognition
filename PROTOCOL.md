@@ -9,5 +9,21 @@ Basically, TensorFlow is a deep learning framework focussing on data flow for in
 ## Load in image data
 We use the [Bird Species](https://www.kaggle.com/datasets/gpiosenka/100-bird-species?select=birds+latin+names.csv) dataset from Kaggle. The input data is structured sucht that the parent directory of each image file names their label. Tensorflow can uses this file structure conveniently ([ImageDataGenerator](https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator) would generate exactly this structure). 
 
+The folder structure looks like this: <br>
+/input/100-bird-species <br>
+> /images to test <br>
+> /train <br>
+> /valid <br>
+> /test <br>
+> > /ABBOTTS BABBLER <br>
+> > /ABBOTTS BOOBY <br>
+> > /... <br>
+> > > /1.jpg  <br>
+> > > /2.jpg  <br>
+> > > /3.jpg  <br>
+> > > /4.jpg  <br>
+> > > /5.jpg  <br>
+
+
 We use ``image_dataset_from_directory()`` to generate the training, validation and test data from the directory.
 As we use the data generator, the model infers the labels from the parent directories. Thus, they do not have to be stored in an array explicitly.  
