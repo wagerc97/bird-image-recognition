@@ -7,7 +7,7 @@ Our group worked on this university project in summer semester of 2022.
 - [View project](./kaggle-notebook.ipynb) on GitHub (full project as python notebook)
 
 ## Libraries
-- Data hanlding with standard libraries (_Pandas_, _Numpy_)
+- Data handlding with standard libraries (_Pandas_, _Numpy_)
 - Image import and preprocessing with _Keras/Tensorflow_
 - Model build with _Keras/TensorFlow_
 - Some metrics for evaluation with _Sklearn_
